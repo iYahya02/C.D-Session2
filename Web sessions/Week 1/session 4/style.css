@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,600;10..48,700&family=Open+Sans:ital,wght@0,500;0,600;1,300;1,400;1,600&display=swap');
+
+body
+{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.x
+{
+    
+    margin-top: 20% , 80%;
+    background-position: center;
+}
+
+.tab
+{
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    border: 2.5px;
+    border-style: outset;
+}
+
+.tab th
+{
+    tex
+}

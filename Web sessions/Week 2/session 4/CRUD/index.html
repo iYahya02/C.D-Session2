@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button onclick="toggleTheme()">
+            Day/Night Mode</button>
+    </div>
+    <div class="form-container">
+        <form id="productForm">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" required>
+            
+            <label for="model">Model:</label>
+            <input type="text" id="model" required>
+            
+            <label for="quantity">Quantity:</label>
+            <div class="quantity-controls">
+                <button type="button" onclick="decrementQuantity()">-</button>
+                <input type="number" id="quantity" value="1" required>
+                <button type="button" onclick="incrementQuantity()">+</button>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <table id="productsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Product Name</th>
+                <th>Model</th>
+                <th>Quantity</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
